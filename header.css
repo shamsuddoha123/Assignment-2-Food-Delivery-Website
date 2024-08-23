@@ -1,0 +1,25 @@
+.flex-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sitenav li {
+    list-style: none;
+}
+
+.sitenav li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fastest-delivery {
+    font-size: 96px;
+}
+
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}

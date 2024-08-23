@@ -1,0 +1,207 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-content {
+    text-align: right;
+}
+
+.right-content p {
+    margin: 5px;
+    font-size: 26px;
+}
+
+.add-to-cart-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #d37821;
+}
+
+.see-more-btn {
+    background-color: #F48E28;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-section {
+    margin: 200px 0;
+}
+
+.card-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.content {
+    text-align: center;
+}
+
+.content p {
+    margin: 30px 30px;
+}
+
+.hover-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(28, 100%, 85%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon {
+    max-width: 50%;
+    max-height: 50%;
+    position: relative;
+    z-index: 2;
+    filter: brightness(0) saturate(100%) invert(52%) sepia(61%) saturate(1716%) hue-rotate(353deg) brightness(85%) contrast(106%);
+}
+
+
+.test1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test1 img {
+    max-width: 100%;
+}
+
+.subscription-section {
+    display: flex;
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    height: 300px;
+    border-radius: 70px;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.burger-image {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.right-side {
+    flex: 1;
+    max-width: 500px;
+}
+
+.right-side h2 {
+    color: #fff;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+
+.right-side p {
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.subscribe-btn {
+    padding: 10px;
+    background-color: #F48E28;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: #e07b1f;
+}
+
+#subscriptionMessage {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,80 @@
+.footer1 {
+    display: flex;
+    background-color: #d5dfd3;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    box-sizing: border-box;
+    margin-inline: 30px;
+}
+
+.logo-section .logo {
+    width: 150px;
+    height: auto;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.hours-section h3,
+.user-links h3,
+.contact-section h3 {
+    margin-top: 0;
+}
+
+.user-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-links li {
+    margin-bottom: 10px;
+}
+
+.user-links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.user-links a:hover {
+    text-decoration: underline;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-section input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    padding: 10px;
+    background-color: #F48E28;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #e07b1f;
+}

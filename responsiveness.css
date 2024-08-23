@@ -1,0 +1,61 @@
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    .container {
+        padding: 20px 30px;
+    }
+
+
+    .flex-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-section img{
+        width: 100%;
+
+    }
+    .fastest-delivery {
+        font-size: 48px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .card-section {
+        margin: 100px 0;
+    }
+
+    .card-row {
+        grid-template-columns: 1fr;
+    }
+
+    .subscription-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 40px;
+        height: auto;
+    }
+
+    .burger-image {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .footer1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-inline: 0;
+        margin-bottom: 20px;
+    }
+
+}
